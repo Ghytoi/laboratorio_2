@@ -1,0 +1,66 @@
+#VRML_SIM R2025a utf8
+
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/backgrounds/protos/TexturedBackground.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/backgrounds/protos/TexturedBackgroundLight.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/floors/protos/RectangleArena.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/robots/gctronic/e-puck/protos/E-puck.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/factory/containers/protos/WoodenBox.proto"
+
+WorldInfo {
+}
+Viewpoint {
+  orientation -0.5449261221210935 0.5456079656365472 0.6366847487289257 2.006549035101804
+  position 0.08378673574396397 -0.3842600373723712 1.8946689192802384
+}
+TexturedBackground {
+}
+TexturedBackgroundLight {
+}
+RectangleArena {
+}
+WoodenBox {
+  translation -0.193256 -0.322426 0.03
+  rotation 0 0 1 0.785398
+  name "wooden box(5)"
+  size 0.06 0.06 0.06
+}
+E-puck {
+  hidden position_0_0 5.976927724446746
+  hidden position_0_1 6.568329252686022
+  hidden translation_1 0 0.025999999999998923 0.02
+  hidden rotation_1 0 1 0 5.976927724446746
+  hidden translation_2 0 -0.02599999999999902 0.02
+  hidden rotation_2 0 -1 0 5.998041361673152
+  translation -0.0445097 0.00362967 -6.39468e-05
+  rotation -0.0006219668765301273 0.00010093297996327031 0.9999998014848493 -2.939745307179586
+  name "Valeria"
+  controller "controlador_lab2"
+}
+WoodenBox {
+  translation -0.22 0.13 0.03
+  size 0.06 0.06 0.06
+}
+WoodenBox {
+  translation 0.209793 0.0664812 0.03
+  rotation 0 0 1 0.785398
+  name "wooden box(1)"
+  size 0.06 0.06 0.06
+}
+WoodenBox {
+  translation -0.285179 -0.103225 0.03
+  rotation 0 0 1 0.785398
+  name "wooden box(4)"
+  size 0.06 0.06 0.06
+}
+WoodenBox {
+  translation 0.134734 -0.287702 0.0273514
+  rotation -0.0019617396181413117 -0.0025575095021728596 0.9999948053479161 -2.8797853071795863
+  name "wooden box(2)"
+  size 0.4 0.04 0.06
+}
+WoodenBox {
+  translation 0.09512 0.335756 0.0290481
+  rotation -0.8648472075613778 0.5019561204683359 0.008908462138010807 0.00439982
+  name "wooden box(3)"
+  size 0.8 0.04 0.06
+}
