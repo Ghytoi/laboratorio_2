@@ -4,6 +4,7 @@ Código: ICI 4150
 Integrantes
 -	Ingerber Sobarzo
 -	Julian Toro
+  
 Objetivo
 Implementar un sistema de navegación reactiva en Webots utilizando sensores de distancia y encoders de rueda, aplicando técnicas de filtrado y un filtro de Kalman para estimar de forma más robusta la distancia frontal a obstáculos y mejorar la toma de decisiones del robot.
 Robot y Sensores Utilizados
