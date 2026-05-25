@@ -181,6 +181,7 @@ El filtro permitió obtener una estimación más estable de la distancia frontal
 La navegación reactiva permitió al robot avanzar y evitar obstáculos utilizando información frontal y lateral.
 
 Como mejora futura, podría incorporarse una predicción más precisa utilizando directamente el desplazamiento calculado mediante los encoders.
+
 Instrucciones de Ejecución
 1. Abrir el proyecto en Webots.
 2. Cargar el mundo del laboratorio.
