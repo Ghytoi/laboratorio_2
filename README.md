@@ -1,5 +1,5 @@
 Laboratorio 2: Navegación Reactiva con Filtrado y Fusión de Sensores en Webots
-Laboratorios: Robótica y Sistemas Autónomos 2026-01
+Laboratorios: Robótica y Sistemas Autónomos
 Código: ICI 4150
 Integrantes
 -	Ingerber Sobarzo
