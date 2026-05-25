@@ -75,9 +75,9 @@ El desplazamiento lineal puede estimarse mediante:
 s = rθ
 
 donde:
-- s es el desplazamiento lineal,
-- r es el radio de la rueda,
-- θ es el desplazamiento angular.
+- s es el desplazamiento lineal
+- r es el radio de la rueda
+- θ es el desplazamiento angular
 
 En la implementación actual los encoders fueron habilitados correctamente y utilizados como parte de la estructura general del sistema de navegación.
 Filtro Simple Aplicado
@@ -96,10 +96,10 @@ Variables utilizadas:
 - R = 5
 
 Donde:
-- d_est corresponde a la distancia estimada,
-- P corresponde a la covarianza del error,
-- Q representa el ruido del modelo,
-- R representa el ruido de medición.
+- d_est corresponde a la distancia estimada
+- P corresponde a la covarianza del error
+- Q representa el ruido del modelo
+- R representa el ruido de medición
 Etapa de Predicción
 La etapa de predicción fue implementada mediante:
 
@@ -142,13 +142,13 @@ Escenarios de Prueba
 Se diseñaron dos escenarios de prueba:
 
 1. Entorno simple:
-- pocos obstáculos,
-- espacios amplios,
-- navegación sencilla.
+- pocos obstáculos
+- espacios amplios
+- navegación sencilla
 
 2. Entorno complejo:
-- múltiples obstáculos,
-- zonas estrechas,
+- múltiples obstáculos
+- zonas estrechas
 - necesidad de maniobras frecuentes.
 Resultados Obtenidos
 Durante las pruebas se observaron los siguientes resultados:
@@ -160,19 +160,20 @@ Durante las pruebas se observaron los siguientes resultados:
 - El comportamiento reactivo mejoró utilizando señales filtradas.
 Comparación entre Señales
 Lecturas crudas:
-- mayor ruido,
-- variaciones rápidas,
-- decisiones menos estables.
+- mayor ruido
+- variaciones rápidas
+- decisiones menos estables
 
 Señales filtradas:
-- menor variación,
-- movimiento más suave,
-- menos oscilaciones.
+- menor variación
+- movimiento más suave
+- menos oscilaciones
 
 Estimación con Kalman:
-- mayor estabilidad,
-- mejor comportamiento reactivo,
-- decisiones más robustas frente al ruido.
+- mayor estabilidad
+- mejor comportamiento reactivo
+- decisiones más robustas frente al ruido
+
 Conclusiones
 En este laboratorio se implementó exitosamente un sistema de navegación reactiva utilizando sensores de distancia y fusión sensorial mediante filtro de Kalman.
 
